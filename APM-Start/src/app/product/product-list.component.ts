@@ -44,7 +44,6 @@ export class ProductListComponent implements OnInit{
                     this.filteredProducts = this.products;
                 },
                 error => this.errorMessage = <any>error);
-        console.log('todo get json from file');
     }
 
     performFilter(filterBy: string): IProduct[] {
